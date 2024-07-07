@@ -17,7 +17,7 @@
            clone-depth="1" />  
                
   <remote name="gcam"
-           fetch="https://github.com/ArrowOS-Devices"
+           fetch="https://github.com/Evolution-X"
            clone-depth="1" />       
            
 
@@ -36,6 +36,6 @@
   
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-<project path="packages/apps/GCamPrebuilt" name="android_packages_apps_GCamPrebuilt" remote="harsh" revision="main" />
+<project path="packages/apps/GCamPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="gcam" revision="udc" />
            
 </manifest>
