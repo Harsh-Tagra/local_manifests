@@ -36,6 +36,6 @@
   
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-<project path="packages/apps/GCamPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="gcam" revision="udc" />
+<project path="packages/apps" name="PrebuiltApps" remote="harsh" revision="main" />
            
 </manifest>
