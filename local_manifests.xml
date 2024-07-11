@@ -37,8 +37,6 @@
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
 
-       <remove-project name="anoosragh69/android_vendor_gapps" />
-  <project path="vendor/gapps" name="minaripenguin/android_vendor_gapps" remote="gitlab" revision="14.0" />
-  <project path="packages/apps/GCamPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="gcam" revision="udc" />
+    <project path="packages/apps" name="PrebuiltApps" remote="harsh" revision="main" />
            
 </manifest>
