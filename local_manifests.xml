@@ -15,14 +15,19 @@
   <remote name="lineage-21"
            fetch="https://github.com/LineageOS/"
            clone-depth="1" />  
-               
+
+
+  <remote name="Al"
+           fetch="https://github.com/ALprjkt/"
+           clone-depth="1" />
+  
 
 
 <!--Tree -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="evo" />
  
 <!--Kernel -->
- <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="xdev" revision="lineage-21" />
+ <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="Al" revision="lineage-21" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/ysl" name="proprietary_vendor_xiaomi_ysl" remote="xdev" revision="lineage-21" />
