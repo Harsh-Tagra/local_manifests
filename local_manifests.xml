@@ -27,7 +27,7 @@
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="evo" />
  
 <!--Kernel -->
- <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="Al" revision="lineage-21" />
+ <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_ysl" remote="Al" revision="master" />
  
  <!--Vendor -->
  <project path="vendor/xiaomi/ysl" name="proprietary_vendor_xiaomi_ysl" remote="xdev" revision="lineage-21" />
