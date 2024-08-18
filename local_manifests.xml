@@ -12,8 +12,8 @@
            fetch="https://github.com/Harsh-Tagra"
            clone-depth="1" />
            
-  <remote name="lineage-21"
-           fetch="https://github.com/LineageOS/"
+ <remote name="crdroid"
+           fetch="https://github.com/crdroidandroid"
            clone-depth="1" />  
                
   <remote name="gcam"
@@ -22,7 +22,7 @@
            
 
 <!--Tree -->
- <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="lineage-21" />
+ <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="crdroid" />
  
 <!--Kernel -->
  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="xdev" revision="lineage-21" />
@@ -35,8 +35,8 @@
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
   
 <!--Extras -->
-<!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" /> -->
-<!-- <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="gcam" revision="arrow-13.1" /> -->
+<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="crdroid" revision="14.0" />
+       
 
            
 </manifest>
