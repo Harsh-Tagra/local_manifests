@@ -19,7 +19,9 @@
   <remote name="gcam"
            fetch="https://github.com/Evolution-X"
            clone-depth="1" />       
-           
+      <remote name="iusmac"
+        fetch="https://github.com/iusmac" 
+        revision="14.0-dev" />       
 
 <!--Tree -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="ProjectSakura" />
@@ -38,5 +40,7 @@
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
 
     <project path="packages/apps" name="PrebuiltApps" remote="harsh" revision="main" />
+
+<project path="packages/apps/7SIM" name="7SIM" remote="iusmac" />
            
 </manifest>
