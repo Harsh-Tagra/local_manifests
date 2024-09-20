@@ -3,7 +3,10 @@
   <remote  name="xdev"
            fetch="https://github.com/xiaomi-msm8953-devs"
            clone-depth="1" />
-           
+             <remote name="lineage-21"
+           fetch="https://github.com/LineageOS/"
+           clone-depth="1" />  
+               
   <remote name="gio"
            fetch="https://gitlab.com/itsvixano-dev"
            clone-depth="1" />
