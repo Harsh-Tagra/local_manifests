@@ -35,6 +35,5 @@
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
   
 <!--Extras -->
-<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-           
+
 </manifest>
