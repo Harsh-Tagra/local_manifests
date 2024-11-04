@@ -15,10 +15,7 @@
   <remote name="lineage-21"
            fetch="https://github.com/LineageOS/"
            clone-depth="1" />  
-               
-  <remote name="gcam"
-           fetch="https://github.com/ArrowOS-Devices"
-           clone-depth="1" />       
+
            
 
 <!--Tree -->
