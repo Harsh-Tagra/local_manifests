@@ -16,7 +16,10 @@
            fetch="https://github.com/LineageOS/"
            clone-depth="1" />  
 
-           
+            <remote name="git"
+          fetch="https://gitlab.com/RisingTechOSS/"
+               clone-depth="1"
+       />
 
 <!--Tree -->
  <project path="device/xiaomi/ysl" name="android_device_xiaomi_ysl" remote="harsh" revision="rise" />
@@ -34,5 +37,7 @@
 
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-21" />
-           
+              <remove-project path="vendor/gms" />
+   <project path="vendor/gms" name="android_vendor_gms" remote="git"  revision="fifteen-staging" />
+
 </manifest>
