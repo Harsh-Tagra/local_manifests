@@ -37,7 +37,5 @@
 
 <!--Extras -->
 <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage-21" revision="lineage-22.0" />
-              <remove-project path="vendor/gms" />
-   <project path="vendor/gms" name="android_vendor_gms" remote="git"  revision="fifteen-staging" />
-
+   
 </manifest>
