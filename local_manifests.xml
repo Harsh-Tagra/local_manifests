@@ -29,7 +29,8 @@
  
  <!--Vendor -->
  <project path="vendor/xiaomi/ysl" name="proprietary_vendor_xiaomi_ysl" remote="xdev" revision="lineage-21" />
- 
+ <remote name="iusmac" fetch="https://github.com/iusmac" revision="14.0-dev" />
+<project path="packages/apps/7SIM" name="7SIM" remote="iusmac" />
  <!--Common tree -->
  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xdev" revision="lineage-21" />
