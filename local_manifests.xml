@@ -32,9 +32,8 @@
  <project path="vendor/xiaomi/ysl" name="proprietary_vendor_xiaomi_ysl" remote="xdev" revision="lineage-22.2" />
  
  <!--Common tree -->
- <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="evox" revision="bka" />
-  <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="evox" revision="bka" />
-  
+ <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="xdev" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" remote="xdev" revision="lineage-22.2" /
 <!--Extras -->
 <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evox" revision="bka" />
 
